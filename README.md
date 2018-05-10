@@ -126,13 +126,13 @@ BenchChain’s does use DPOS, aka delegated proof-of-stake but the mechanism beh
 - In order to become a Rocketeer and to have a positive amount of “Voting Fuel”, the Rocketeer candidate has to “Lock Up” a predetermined amount of BEN (If being done on the RootChain)
 - Rocketeers can self-fund their candidacy / campaign to become Rocketeers or they can acquire Voting Fuel from other Pledging BEN holders by convincing them to pledge BEN to them. 
 - During a BRI (Block Rocketing Interval), known as a MultiRound, a “RocketeerSet” is defined as the set of Rocketeers who are responsible for signing native/remote transactions that agree to commit the next block.
-- The Rocketeer set dynamically changes as Rocketeers join or leave the Bench Network’s DPOS consensus process. 
+- The RocketeerSet dynamically changes as Rocketeers join or leave the Bench Network’s DPOS consensus process. 
 - Bench’s RootChain, SideChains or DappChains only require 4 Rocketeers but there is no upper limit to the number of Rocketeers that a BenchCore-based chain can have. 
 - BenchChain will have 100 Rocketeers but over time this will increase to 300 Rocketeers and this process will take place automatically based on a programmatically determined expansion schedule. 
 - Although this is programmatically determined, this programming can be changed via Software-based Motions within the Governance. 
 
 **Every Block Is Final **
-Depending on the number of Rocketeers within BenchChain or it’s SideChains and DappChains, the finality of a block can be achieved in a single second. On average through our testing and “QControl” testing, BenchChain’s Rootchain finds block finality within around 3 seconds on average. 
+Depending on the number of Rocketeers within BenchChain or it’s SideChains or DappChains, the finality of a block can be achieved in a single second. On average through our testing and “QControl” testing, BenchChain’s Rootchain finds block finality within around 3 seconds on average. 
 
 **How BENCH Solves The NOS Consensus Nightmare**
 Nothing at stake is a major problem with blockchain networks where Byzantine mafias strategize ways to overtake networks at literally no cost and to make matters even worse, there are no penalties or punishment for these actions. These mafias end up taking over these blockchain networks and destroying the true decentralized nature and purpose the original creators of these networks had in mind. 
